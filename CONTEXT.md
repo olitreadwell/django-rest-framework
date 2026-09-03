@@ -27,6 +27,7 @@
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
 - 2026-09-02 issue #5236 — dropped (already fixed by merged PR #9467; remaining 'details'->'results' is unaccepted design change)
+- 2026-09-03 trivial-fix pass — 3 verified broken-link fixes bundled into ONE docs PR (fork PR #2): (1) project-management.md release-notes link pointed to blob/mains (typo) + old docs/topics/ path, file now at docs/community/release-notes.md; (2) rest-hypermedia-hateoas.md steveklabnik reading-list link dead, replaced with current URL; (3) release-notes.md contributor link @maerteijn 404, account renamed to mj026 (same user, PR #9198). All replacements verified 200. Fork CI: Actions enabled but 0 workflows registered, no checks appear (fork artifact).
 
 ## Mined gaps (discovered, not yet attempted)
 - (to be filled by repo-audit)
