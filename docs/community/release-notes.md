@@ -320,12 +320,12 @@ This release is considered a significant release to improve upstream support wit
 
 #### New Contributors
 
-* [`@maerteijn`](https://github.com/maerteijn) made their first contribution in [#9198](https://github.com/encode/django-rest-framework/pull/9198)
+* [`@mj026`](https://github.com/mj026) made their first contribution in [#9198](https://github.com/encode/django-rest-framework/pull/9198)
 * [`@FraCata00`](https://github.com/FraCata00) made their first contribution in [#9444](https://github.com/encode/django-rest-framework/pull/9444)
 * [`@AlvaroVega`](https://github.com/AlvaroVega) made their first contribution in [#9451](https://github.com/encode/django-rest-framework/pull/9451)
-* [`@james`](https://github.com/james)-mchugh made their first contribution in [#9455](https://github.com/encode/django-rest-framework/pull/9455)
+* [@james-mchugh](https://github.com/james-mchugh) made their first contribution in [#9455](https://github.com/encode/django-rest-framework/pull/9455)
 * [`@ifeanyidavid`](https://github.com/ifeanyidavid) made their first contribution in [#9479](https://github.com/encode/django-rest-framework/pull/9479)
-* [`@p`](https://github.com/p)-schlickmann made their first contribution in [#9480](https://github.com/encode/django-rest-framework/pull/9480)
+* [@p-schlickmann](https://github.com/p-schlickmann) made their first contribution in [#9480](https://github.com/encode/django-rest-framework/pull/9480)
 * [`@akkuman`](https://github.com/akkuman) made their first contribution in [#9505](https://github.com/encode/django-rest-framework/pull/9505)
 * [`@rafaelgramoschi`](https://github.com/rafaelgramoschi) made their first contribution in [#9509](https://github.com/encode/django-rest-framework/pull/9509)
 * [`@Sinaatkd`](https://github.com/Sinaatkd) made their first contribution in [#9521](https://github.com/encode/django-rest-framework/pull/9521)
