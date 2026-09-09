@@ -1,5 +1,5 @@
 # encode/django-rest-framework context
-> refreshed 2026-09-02 | upstream default: main @ ae9fd0c7
+> refreshed 2026-09-09 | upstream default: main @ dd23495
 
 ## Identity & policies
 - upstream: encode/django-rest-framework, default branch main, primary language Python, English-first (yes)
