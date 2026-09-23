@@ -11,6 +11,7 @@ from django.test.utils import override_settings
 
 from rest_framework import filters, generics, serializers
 from rest_framework.exceptions import ValidationError
+from rest_framework.request import Request
 from rest_framework.test import APIRequestFactory
 
 factory = APIRequestFactory()
@@ -871,6 +872,35 @@ class OrderingFilterTests(TestCase):
             {'id': 3, 'title': 'xwv', 'text': 'cde'},
             {'id': 2, 'title': 'yxw', 'text': 'bcd'},
         ]
+
+    def test_ordering_annotation_label(self):
+        for index, obj in enumerate(OrderingFilterModel.objects.all()):
+            for _ in range(index + 1):
+                OrderingFilterRelatedModel.objects.create(
+                    related_object=obj, index=index
+                )
+
+        class OrderingListView(generics.ListAPIView):
+            serializer_class = OrderingFilterSerializer
+            filter_backends = (filters.OrderingFilter,)
+            ordering_fields = '__all__'
+            queryset = OrderingFilterModel.objects.all().annotate(
+                related_count=models.Count("related"))
+
+        request = Request(factory.get('/'))
+        view = OrderingListView()
+        filter_backend = filters.OrderingFilter()
+        options = filter_backend.get_template_context(
+            request, view.queryset, view)['options']
+
+        labels = {
+            key: label for key, label in options
+            if key in ('related_count', '-related_count')
+        }
+        assert labels == {
+            'related_count': 'Related Count - ascending',
+            '-related_count': 'Related Count - descending',
+        }
 
     def test_ordering_by_dotted_source(self):
 
