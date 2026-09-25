@@ -9,7 +9,7 @@ source:
 structured formats for sending data than form-encoded, since they're
 sending more complex data than simple forms
 >
-> &mdash; Malcom Tredinnick, [Django developers group][cite]
+> &mdash; Malcolm Tredinnick, [Django developers group][cite]
 
 REST framework includes a number of built-in Parser classes, that allow you to accept requests with various media types.  There is also support for defining your own custom parsers, which gives you the flexibility to design the media types that your API accepts.
 
