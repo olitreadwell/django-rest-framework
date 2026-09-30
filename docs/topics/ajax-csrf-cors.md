@@ -34,7 +34,7 @@ The best way to deal with CORS in REST framework is to add the required response
 [Adam Johnson][adamchainz] maintains the [django-cors-headers] package, which is known to work correctly with REST framework APIs.
 
 [cite]: https://blog.codinghorror.com/preventing-csrf-and-xsrf-attacks/
-[csrf]: https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+[csrf]: https://owasp.org/www-community/attacks/csrf
 [csrf-ajax]: https://docs.djangoproject.com/en/stable/howto/csrf/#using-csrf-protection-with-ajax
 [cors]: https://www.w3.org/TR/cors/
 [adamchainz]: https://github.com/adamchainz
