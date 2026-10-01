@@ -217,7 +217,9 @@ A `RegexField` that validates the input against the pattern `[a-zA-Z0-9_-]+`.
 
 Corresponds to `django.db.models.fields.SlugField`.
 
-**Signature:** `SlugField(max_length=50, min_length=None, allow_blank=False)`
+**Signature:** `SlugField(max_length=50, min_length=None, allow_blank=False, allow_unicode=False)`
+
+* `allow_unicode` - If set to `True` then the field will accept Unicode letters, numbers, underscores and hyphens, in addition to the ASCII characters matched by the default pattern. Defaults to `False`.
 
 ### URLField
 
