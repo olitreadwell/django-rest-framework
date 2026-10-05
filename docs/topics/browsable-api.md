@@ -184,8 +184,6 @@ The context that's available to the template:
 * `response`            : The response object
 * `version`             : The version of Django REST Framework
 * `view`                : The view handling the request
-* `FORMAT_PARAM`        : The view can accept a format override
-* `METHOD_PARAM`        : The view can accept a method override
 
 You can override the `BrowsableAPIRenderer.get_context()` method to customize the context that gets passed to the template.
 

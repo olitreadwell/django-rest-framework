@@ -8,7 +8,7 @@ There are a wide range of resources available for learning and using Django REST
   <a class="book-cover" href="https://hellowebapp.com/order/">
     <img src="../../img/books/hwa-cover.png" style="height: 300px"/>
   </a>
-  <a class="book-cover" href="https://www.twoscoopspress.com/products/two-scoops-of-django-1-11">
+  <a class="book-cover" href="https://web.archive.org/web/20210624094317/https://www.feldroy.com/products/two-scoops-of-django-1-11">
     <img src="../../img/books/tsd-cover.png" style="height: 300px"/>
   </a>
   <a class="book-cover" href="https://djangoforapis.com">
