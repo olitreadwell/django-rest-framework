@@ -45,7 +45,7 @@ This behavior is controlled using the `URL_FORMAT_OVERRIDE` setting.
 
 ## HTTP header based method overriding
 
-Prior to version 3.3.0 the semi extension header `X-HTTP-Method-Override` was supported for overriding the request method. This behavior is no longer in core, but can be adding if needed using middleware.
+Prior to version 3.3.0 the semi extension header `X-HTTP-Method-Override` was supported for overriding the request method. This behavior is no longer in core, but can be added if needed using middleware.
 
 For example:
 
