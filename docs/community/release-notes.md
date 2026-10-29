@@ -253,7 +253,7 @@ You can determine your currently installed version using `pip show`:
 * [@zankoAn](https://github.com/zankoAn) made their first contribution in [#9788](https://github.com/encode/django-rest-framework/pull/9788)
 * [@uche-wealth](https://github.com/uche-wealth) made their first contribution in [#9795](https://github.com/encode/django-rest-framework/pull/9795)
 * [@s-aleshin](https://github.com/s-aleshin) made their first contribution in [#9766](https://github.com/encode/django-rest-framework/pull/9766)
-* [@Infamous003](https://github.com/Infamous003) made their first contribution in [#9794](https://github.com/encode/django-rest-framework/pull/9794)
+* [@syedmehdi03](https://github.com/syedmehdi03) made their first contribution in [#9794](https://github.com/encode/django-rest-framework/pull/9794)
 * [@Genarito](https://github.com/Genarito) made their first contribution in [#9790](https://github.com/encode/django-rest-framework/pull/9790)
 * [@TheFunctionalGuy](https://github.com/TheFunctionalGuy) made their first contribution in [#9799](https://github.com/encode/django-rest-framework/pull/9799)
 * [@mahdighadiriii](https://github.com/mahdighadiriii) made their first contribution in [#9800](https://github.com/encode/django-rest-framework/pull/9800)
@@ -407,12 +407,12 @@ This release is considered a significant release to improve upstream support wit
 
 #### New Contributors
 
-* [`@maerteijn`](https://github.com/maerteijn) made their first contribution in [#9198](https://github.com/encode/django-rest-framework/pull/9198)
+* [`@mj026`](https://github.com/mj026) made their first contribution in [#9198](https://github.com/encode/django-rest-framework/pull/9198)
 * [`@FraCata00`](https://github.com/FraCata00) made their first contribution in [#9444](https://github.com/encode/django-rest-framework/pull/9444)
 * [`@AlvaroVega`](https://github.com/AlvaroVega) made their first contribution in [#9451](https://github.com/encode/django-rest-framework/pull/9451)
-* [`@james`](https://github.com/james)-mchugh made their first contribution in [#9455](https://github.com/encode/django-rest-framework/pull/9455)
+* [`@james-mchugh`](https://github.com/james-mchugh) made their first contribution in [#9455](https://github.com/encode/django-rest-framework/pull/9455)
 * [`@ifeanyidavid`](https://github.com/ifeanyidavid) made their first contribution in [#9479](https://github.com/encode/django-rest-framework/pull/9479)
-* [`@p`](https://github.com/p)-schlickmann made their first contribution in [#9480](https://github.com/encode/django-rest-framework/pull/9480)
+* [`@p-schlickmann`](https://github.com/p-schlickmann) made their first contribution in [#9480](https://github.com/encode/django-rest-framework/pull/9480)
 * [`@akkuman`](https://github.com/akkuman) made their first contribution in [#9505](https://github.com/encode/django-rest-framework/pull/9505)
 * [`@rafaelgramoschi`](https://github.com/rafaelgramoschi) made their first contribution in [#9509](https://github.com/encode/django-rest-framework/pull/9509)
 * [`@Sinaatkd`](https://github.com/Sinaatkd) made their first contribution in [#9521](https://github.com/encode/django-rest-framework/pull/9521)

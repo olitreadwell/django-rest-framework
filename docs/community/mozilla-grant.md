@@ -10,7 +10,7 @@ Specifically, the work includes:
 
 ## Client libraries
 
-This work will include built-in schema and hypermedia support, allowing dynamic client libraries to interact with the API. I'll also be releasing both Python and Javascript client libraries, plus a command-line client, a new tutorial section, and further documentation.
+This work will include built-in schema and hypermedia support, allowing dynamic client libraries to interact with the API. I'll also be releasing both Python and JavaScript client libraries, plus a command-line client, a new tutorial section, and further documentation.
 
 * Client library support in REST framework.
   * Schema & hypermedia support for REST framework APIs.
@@ -26,7 +26,7 @@ The next goal is to build on the realtime support offered by Django Channels, ad
 
 * Support for API subscription endpoints, using REST framework and Django Channels.
 * New tutorial section on building realtime API endpoints with REST framework.
-* Realtime support in the Python & Javascript client libraries.
+* Realtime support in the Python & JavaScript client libraries.
 
 ## Accountability
 

@@ -520,10 +520,10 @@ Comma-separated values are a plain-text tabular data format, that can be easily 
 [html-and-forms]: ../topics/html-and-forms.md
 [browser-accept-headers]: http://www.gethifi.com/blog/browser-rest-http-accept-headers
 [testing]: testing.md
-[HATEOAS]: http://timelessrepo.com/haters-gonna-hateoas
+[HATEOAS]: https://web.archive.org/web/20161217035136/http://timelessrepo.com/haters-gonna-hateoas
 [quote]: https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven
 [application/vnd.github+json]: https://developer.github.com/v3/media/
-[application/vnd.collection+json]: http://www.amundsen.com/media-types/collection/
+[application/vnd.collection+json]: https://web.archive.org/web/20231227052228/http://amundsen.com/media-types/collection/
 [django-error-views]: https://docs.djangoproject.com/en/stable/topics/http/views/#customizing-error-views
 [rest-framework-jsonp]: https://jpadilla.github.io/django-rest-framework-jsonp/
 [cors]: https://www.w3.org/TR/cors/

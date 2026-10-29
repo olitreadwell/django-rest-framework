@@ -96,10 +96,9 @@ If you want to allow per-request language preferences you'll need to include `dj
 You can find more information on how the language preference is determined in the [Django documentation][django-language-preference]. For reference, the method is:
 
 1. First, it looks for the language prefix in the requested URL.
-2. Failing that, it looks for the `LANGUAGE_SESSION_KEY` key in the current user’s session.
-3. Failing that, it looks for a cookie.
-4. Failing that, it looks at the `Accept-Language` HTTP header.
-5. Failing that, it uses the global `LANGUAGE_CODE` setting.
+2. Failing that, it looks for a cookie.
+3. Failing that, it looks at the `Accept-Language` HTTP header.
+4. Failing that, it uses the global `LANGUAGE_CODE` setting.
 
 For API clients the most appropriate of these will typically be to use the `Accept-Language` header; Sessions and cookies will not be available unless using session authentication, and generally better practice to prefer an `Accept-Language` header for API clients rather than using language URL prefixes.
 

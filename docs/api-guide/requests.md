@@ -82,7 +82,7 @@ For more details see the [authentication documentation].
 
 ### .authenticators
 
-The `APIView` class or `@api_view` decorator will ensure that this property is automatically set to a list of `Authentication` instances, based on the `authentication_classes` set on the view or based on the `DEFAULT_AUTHENTICATORS` setting.
+The `APIView` class or `@api_view` decorator will ensure that this property is automatically set to a list of `Authentication` instances, based on the `authentication_classes` set on the view or based on the `DEFAULT_AUTHENTICATION_CLASSES` setting.
 
 You won't typically need to access this property.
 

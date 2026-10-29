@@ -453,7 +453,7 @@ class TestSerializerPartialUsage:
     serialization should result in an empty state (key not there), not
     an empty list.
 
-    Regression test for Github issue #2761.
+    Regression test for GitHub issue #2761.
     """
     def test_partial_listfield(self):
         class ListSerializer(serializers.Serializer):

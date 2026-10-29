@@ -46,7 +46,7 @@ Further notes for maintainers:
 
 Our PyPI releases is automated in GitHub actions on tag pushes. The following template can be used as a release checklist:
 
-- Create pull request for [release notes](https://github.com/encode/django-rest-framework/blob/mains/docs/topics/release-notes.md):
+- Create pull request for [release notes](https://github.com/encode/django-rest-framework/blob/main/docs/community/release-notes.md):
     - Start drafting a [new release in GitHub](https://github.com/encode/django-rest-framework/releases/new)
     - Select the tag that you want to give to the release and the previous tag
     - Click the "Generate release notes" button
