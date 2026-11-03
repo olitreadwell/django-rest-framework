@@ -27,14 +27,14 @@ Wonder how else you can help? One of the best ways you can help Django REST Fram
 
 [djangoproject-website]: https://www.djangoproject.com/community/jobs/
 [python-org-jobs]: https://www.python.org/jobs/
-[django-on-remote]: https://django.on-remote.com/
+[django-on-remote]: https://web.archive.org/web/20240814105503/https://django.on-remote.com/
 [django-gigs-com]: https://djangogigs.com
 [django-jobs-net]: https://djangojobs.net/jobs/
 [findwork-dev]: https://findwork.dev/django-rest-framework-jobs
 [indeed-com]: https://www.indeed.com/q-Django-jobs.html
 [stackoverflow-com]: https://stackoverflow.com/jobs/companies?tl=django
 [upwork-com]: https://www.upwork.com/o/jobs/browse/skill/django-framework/
-[technobjobs-co-uk]: https://www.technojobs.co.uk/django-jobs
+[technobjobs-co-uk]: https://web.archive.org/web/20250910165536/https://www.technojobs.co.uk/django-jobs
 [remoteok-com]: https://remoteok.com/remote-django-jobs
 [remotepython-com]: https://www.remotepython.com/jobs/
 [pyjobs-com]: https://www.pyjobs.com/

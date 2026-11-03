@@ -135,7 +135,7 @@ this:
   </head>
   <body>
     <redoc spec-url='{% url schema_url %}'></redoc>
-    <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/redoc@latest/bundles/redoc.standalone.js"> </script>
   </body>
 </html>
 ```
