@@ -58,7 +58,7 @@ def _get_displayed_page_numbers(current, final):
     For an alternative implementation which gives two pages to each side of
     the cursor, eg. as in GitHub issue list pagination, see:
 
-    https://gist.github.com/tomchristie/321140cebb1c4a558b15
+    https://gist.github.com/lovelydinosaur/321140cebb1c4a558b15
     """
     assert current >= 1
     assert final >= current

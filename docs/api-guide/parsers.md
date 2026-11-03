@@ -9,7 +9,7 @@ source:
 structured formats for sending data than form-encoded, since they're
 sending more complex data than simple forms
 >
-> &mdash; Malcom Tredinnick, [Django developers group][cite]
+> &mdash; Malcolm Tredinnick, [Django developers group][cite]
 
 REST framework includes a number of built-in Parser classes, that allow you to accept requests with various media types.  There is also support for defining your own custom parsers, which gives you the flexibility to design the media types that your API accepts.
 
@@ -149,7 +149,18 @@ Depending on the request's `Content-Type:` header, this may be more specific tha
 
 Optional.  If supplied, this argument will be a dictionary containing any additional context that may be required to parse the request content.
 
-By default this will include the following keys: `view`, `request`, `args`, `kwargs`.
+By default, this will include the following keys: `view`, `request`, `args`, `kwargs`, `encoding`.
+
+The `encoding` key holds the charset named in the request's `Content-Type:` header, or `settings.DEFAULT_CHARSET` if there is none.  If your parser decodes the request body as text, resolve it with `get_encoding()` rather than reading the key directly:
+
+    from rest_framework.parsers import get_encoding
+
+    def parse(self, stream, media_type=None, parser_context=None):
+        parser_context = parser_context or {}
+        encoding = get_encoding(parser_context)
+        return stream.read().decode(encoding)
+
+Clients can name any charset that `codecs.lookup()` resolves, including bytes-to-bytes codecs such as `bz2_codec` that decompress rather than decode.  `get_encoding()` rejects those with a `ParseError`, so a small request body cannot expand past `DATA_UPLOAD_MAX_MEMORY_SIZE` after Django has already checked it.
 
 ### Example
 
