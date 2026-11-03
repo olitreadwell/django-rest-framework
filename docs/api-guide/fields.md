@@ -217,7 +217,9 @@ A `RegexField` that validates the input against the pattern `[a-zA-Z0-9_-]+`.
 
 Corresponds to `django.db.models.fields.SlugField`.
 
-**Signature:** `SlugField(max_length=50, min_length=None, allow_blank=False)`
+**Signature:** `SlugField(max_length=50, min_length=None, allow_blank=False, allow_unicode=False)`
+
+* `allow_unicode` - If set to `True` then the field will accept Unicode letters, numbers, underscores and hyphens, in addition to the ASCII characters matched by the default pattern. Defaults to `False`.
 
 ### URLField
 
@@ -539,10 +541,11 @@ Note that the child field **must** be an instance of `CharField`, as the hstore 
 
 A field class that validates that the incoming data structure consists of valid JSON primitives. In its alternate binary mode, it will represent and validate JSON-encoded binary strings.
 
-**Signature**: `JSONField(binary, encoder)`
+**Signature**: `JSONField(binary, encoder, decoder)`
 
 * `binary` - If set to `True` then the field will output and validate a JSON encoded string, rather than a primitive data structure. Defaults to `False`.
 * `encoder` - Use this JSON encoder to serialize input object. Defaults to `None`.
+* `decoder` - Use this JSON decoder to deserialize input object. Defaults to `None`.
 
 ---
 
